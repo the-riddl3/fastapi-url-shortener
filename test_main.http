@@ -1,0 +1,12 @@
+# Test your FastAPI endpoints
+
+###
+POST localhost:8000/shorten
+Content-Type: application/json
+
+{
+  "url": "https://www.yahoo.com",
+  "expiration": 7
+}
+
+###
